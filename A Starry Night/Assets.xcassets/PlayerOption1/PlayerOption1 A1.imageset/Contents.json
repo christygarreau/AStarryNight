@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "PlayerOption1 A1.png",
+      "filename" : "PO1-A1-Small.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "PO1-A1-Medium.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "PO1-A1-Big.png",
       "scale" : "3x"
     }
   ],

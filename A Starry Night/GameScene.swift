@@ -10,6 +10,11 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
+    var flashlight = false
+    var hoodie = false
+    var matches = false
+    var axe = false
+    var key = false
     
     override func didMove(to view: SKView) {
         backgroundColor = SKColor.black

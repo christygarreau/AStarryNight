@@ -18,22 +18,15 @@ class GameViewController: UIViewController {
     @IBOutlet weak var play: UIButton!
     @IBOutlet weak var options: UIButton!
     
-    var flashlight = false
-    var hoodie = false
-    var matches = false
-    var axe = false
-    var key = false
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let skView = self.view as!SKView? {
             if let scene = SKScene(fileNamed: "GameScene"){
                 scene.scaleMode = .aspectFill
-                skView.presentScene(scene)
-                
-                skView.showsNodeCount = true
+                //skView.showsNodeCount = true
                 skView.ignoresSiblingOrder = true
-                skView.showsFPS = true
+                //skView.showsFPS = true
+                skView.presentScene(scene)
             }
         }
     }
