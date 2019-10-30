@@ -15,10 +15,43 @@ class GameScene: SKScene {
     var matches = false
     var axe = false
     var key = false
+    var walking = true
+    private var PO1 = SKSpriteNode()
+    private var PO1WalkingFrames: [SKTexture] = []
     
     override func didMove(to view: SKView) {
         backgroundColor = SKColor.black
+        buildPO1()
+        if walking{
+            animatePO1()
+        }
+    }
+    
+    func buildPO1(){
+        let PO1AnimatedAtlas = SKTextureAtlas(named: "PO1")
+        var walkFrames: [SKTexture] = []
         
+        let numImages = PO1AnimatedAtlas.textureNames.count
+        for i in 1...numImages {
+            let PO1TextureName = "PO1-A\(i)-Big"
+            walkFrames.append(PO1AnimatedAtlas.textureNamed(PO1TextureName))
+        }
+        PO1WalkingFrames = walkFrames
+        let firstFrameTexture = PO1WalkingFrames[0]
+        PO1 = SKSpriteNode(texture: firstFrameTexture)
+        PO1.size = CGSize(width:PO1.size.width/3,height:PO1.size.height/3)
+        PO1.position = CGPoint(x: frame.midX, y: frame.midY)
+        //PO1.decreaseSize(0.5)
+        addChild(PO1)
+    }
+    
+    func animatePO1() {
+        PO1.run(SKAction.repeatForever(
+            SKAction.animate(with: PO1WalkingFrames,
+                             timePerFrame: 0.1,
+                             resize: false,
+                             restore: true)),
+                 withKey:"walkingInPlacePO1")
     }
     
     func touchDown(atPoint pos : CGPoint) {
@@ -31,6 +64,8 @@ class GameScene: SKScene {
     func touchUp(atPoint pos : CGPoint) {
         
     }
+    
+    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         

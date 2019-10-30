@@ -15,8 +15,8 @@ extension SKNode{
 }
 
 class GameViewController: UIViewController {
+    @IBOutlet weak var label: UILabel!
     @IBOutlet weak var play: UIButton!
-    @IBOutlet weak var options: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,11 +36,7 @@ class GameViewController: UIViewController {
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .landscapeLeft
     }
 
     override var prefersStatusBarHidden: Bool {

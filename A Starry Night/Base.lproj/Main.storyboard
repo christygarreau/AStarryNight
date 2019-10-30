@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fhj-Xy-UVy">
-    <device id="retina6_1" orientation="landscape">
+    <device id="ipad12_9rounded" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,53 +20,68 @@
             <objects>
                 <viewController id="fhj-Xy-UVy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hro-DD-jLj">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A Starry Night" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uq-I5-oHB">
-                                <rect key="frame" x="115" y="44" width="679" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="200"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEz-P7-A5x">
-                                <rect key="frame" x="195" y="268" width="103" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEz-P7-A5x">
+                                <rect key="frame" x="340.5" y="703" width="103" height="132"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="100"/>
                                 <state key="normal" title="Play">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="zKf-1z-XKN"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" animates="NO" id="zKf-1z-XKN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0He-Uo-7Jq">
-                                <rect key="frame" x="543" y="272" width="170" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0He-Uo-7Jq">
+                                <rect key="frame" x="859.5" y="703" width="166" height="132"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="100"/>
                                 <state key="normal" title="Options">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JRo-UX-ImP" kind="show" id="m8j-YN-Aeb"/>
+                                    <segue destination="JRo-UX-ImP" kind="show" animates="NO" id="m8j-YN-Aeb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Starry Night" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sqL-x9-jsG">
+                                <rect key="frame" x="394.5" y="283" width="577" height="204"/>
+                                <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="170"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2A6-kg-t9z" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gEz-P7-A5x" secondAttribute="bottom" constant="20" id="2ll-Og-Oak"/>
+                            <constraint firstItem="0He-Uo-7Jq" firstAttribute="centerY" secondItem="hro-DD-jLj" secondAttribute="centerY" multiplier="3/2" constant="1" id="61q-1y-i2s"/>
+                            <constraint firstItem="0He-Uo-7Jq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="sqL-x9-jsG" secondAttribute="bottom" constant="-30" id="DQ3-Er-NrG"/>
+                            <constraint firstItem="gEz-P7-A5x" firstAttribute="leading" secondItem="hro-DD-jLj" secondAttribute="centerX" multiplier="1/2" constant="-1" id="MlG-4X-CFG"/>
+                            <constraint firstItem="gEz-P7-A5x" firstAttribute="centerY" secondItem="hro-DD-jLj" secondAttribute="centerY" multiplier="3/2" constant="1" id="Njg-Dd-aUz"/>
+                            <constraint firstItem="0He-Uo-7Jq" firstAttribute="trailing" secondItem="hro-DD-jLj" secondAttribute="centerX" multiplier="3/2" constant="1" id="PUl-X9-f7Z"/>
+                            <constraint firstItem="2A6-kg-t9z" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0He-Uo-7Jq" secondAttribute="trailing" constant="10" id="Qv6-FZ-UpO"/>
+                            <constraint firstItem="2A6-kg-t9z" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0He-Uo-7Jq" secondAttribute="bottom" constant="20" id="Twr-ft-xou"/>
+                            <constraint firstItem="gEz-P7-A5x" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2A6-kg-t9z" secondAttribute="leading" constant="10" id="WAf-rY-fIE"/>
+                            <constraint firstItem="sqL-x9-jsG" firstAttribute="centerY" secondItem="hro-DD-jLj" secondAttribute="centerY" multiplier="3/4" constant="1" id="Ye9-l3-6ZK"/>
+                            <constraint firstItem="0He-Uo-7Jq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gEz-P7-A5x" secondAttribute="trailing" constant="50" id="buQ-56-pqI"/>
+                            <constraint firstItem="sqL-x9-jsG" firstAttribute="centerX" secondItem="hro-DD-jLj" secondAttribute="centerX" id="p8R-OR-jjS"/>
+                            <constraint firstItem="sqL-x9-jsG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2A6-kg-t9z" secondAttribute="leading" constant="45" id="sTO-J6-Mxf"/>
+                            <constraint firstItem="2A6-kg-t9z" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sqL-x9-jsG" secondAttribute="trailing" constant="45" id="sxx-5w-YN8"/>
+                            <constraint firstItem="sqL-x9-jsG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2A6-kg-t9z" secondAttribute="top" constant="30" id="yea-7t-Qf9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2A6-kg-t9z"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZGU-LP-SzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="252" y="48"/>
+            <point key="canvasLocation" x="251.42428785607197" y="47.200000000000003"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
                 <viewController modalTransitionStyle="flipHorizontal" id="BV1-FR-VrT" customClass="GameViewController" customModule="A_Starry_Night" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
@@ -81,28 +96,26 @@
             <objects>
                 <viewController id="JRo-UX-ImP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pNL-gn-OUx">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRR-Hf-WJP">
-                                <rect key="frame" x="324" y="20" width="249" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRR-Hf-WJP">
+                                <rect key="frame" x="558.5" y="20" width="249" height="106"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="150"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-9V-vZS">
-                                <rect key="frame" x="280" y="152" width="337" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-9V-vZS">
+                                <rect key="frame" x="514.5" y="152" width="337" height="102"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="75"/>
                                 <state key="normal" title="Character Selection">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="jvm-A2-ClG" kind="show" id="nVN-kS-lfD"/>
+                                    <segue destination="jvm-A2-ClG" kind="show" animates="NO" id="nVN-kS-lfD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ca-cC-YWH">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ca-cC-YWH">
                                 <rect key="frame" x="132" y="253" width="140" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="75"/>
@@ -110,22 +123,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="T3T-4R-fNi" kind="show" id="Jjq-P4-NOD"/>
+                                    <segue destination="T3T-4R-fNi" kind="show" animates="NO" id="Jjq-P4-NOD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWA-QU-lIp">
-                                <rect key="frame" x="625" y="253" width="122" height="102"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWA-QU-lIp">
+                                <rect key="frame" x="429" y="233" width="122" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="75"/>
                                 <state key="normal" title="Credits">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4Z3-5d-VbW" kind="show" id="Upe-Hl-FZG"/>
+                                    <segue destination="4Z3-5d-VbW" kind="show" animates="NO" id="Upe-Hl-FZG"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nfa-9V-vZS" firstAttribute="centerX" secondItem="pNL-gn-OUx" secondAttribute="centerX" id="Q0O-JR-5gY"/>
+                            <constraint firstItem="TRR-Hf-WJP" firstAttribute="centerX" secondItem="pNL-gn-OUx" secondAttribute="centerX" id="XBR-yq-R4H"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="01q-gT-HOI"/>
                     </view>
                 </viewController>
@@ -138,18 +155,20 @@
             <objects>
                 <viewController id="T3T-4R-fNi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lMW-6X-OMN">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trophies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nag-Qq-5ax">
-                                <rect key="frame" x="378" y="20" width="140" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Trophies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nag-Qq-5ax">
+                                <rect key="frame" x="613.5" y="20" width="139.5" height="90"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="75"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="nag-Qq-5ax" firstAttribute="centerX" secondItem="lMW-6X-OMN" secondAttribute="centerX" id="gAl-71-54u"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kcg-yJ-z89"/>
                     </view>
                 </viewController>
@@ -162,18 +181,20 @@
             <objects>
                 <viewController id="jvm-A2-ClG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N9n-0D-MZy">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Character Selection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9h-uQ-1Mn">
-                                <rect key="frame" x="280" y="20" width="337" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Character Selection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9h-uQ-1Mn">
+                                <rect key="frame" x="514.5" y="20" width="337" height="90"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="75"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="R9h-uQ-1Mn" firstAttribute="centerX" secondItem="N9n-0D-MZy" secondAttribute="centerX" id="SW0-6H-jdg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="k3J-4f-ZaT"/>
                     </view>
                 </viewController>
@@ -186,18 +207,20 @@
             <objects>
                 <viewController id="4Z3-5d-VbW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RIU-be-Qwg">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="det-LG-BRg">
-                                <rect key="frame" x="387" y="20" width="122" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="det-LG-BRg">
+                                <rect key="frame" x="622.5" y="20" width="121.5" height="90"/>
                                 <fontDescription key="fontDescription" name="Cupcakie-Cupcakie" family="Cupcakie" pointSize="75"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="det-LG-BRg" firstAttribute="centerX" secondItem="RIU-be-Qwg" secondAttribute="centerX" id="oaj-ut-aVj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LLl-uP-wwH"/>
                     </view>
                 </viewController>
