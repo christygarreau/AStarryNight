@@ -15,7 +15,9 @@ class GameScene: SKScene {
     var matches = false
     var axe = false
     var key = false
-    var walking = true
+    var walking: Bool
+    var isChoosingTime: Bool
+    var touchLocation: CGPoint
     private var PO1 = SKSpriteNode()
     private var PO1WalkingFrames: [SKTexture] = []
     
@@ -47,11 +49,7 @@ class GameScene: SKScene {
     
     func animatePO1() {
         PO1.run(SKAction.repeatForever(
-            SKAction.animate(with: PO1WalkingFrames,
-                             timePerFrame: 0.1,
-                             resize: false,
-                             restore: true)),
-                 withKey:"walkingInPlacePO1")
+            SKAction.animate(with: PO1WalkingFrames,timePerFrame: 0.1,resize: false,restore: true)),withKey:"walkingInPlacePO1")
     }
     
     func touchDown(atPoint pos : CGPoint) {
@@ -65,10 +63,12 @@ class GameScene: SKScene {
         
     }
     
-    
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+        if isChoosingTime{
+            for touch in touches{
+                touchLocation = touch.location(in: self)
+            }
+        }
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
