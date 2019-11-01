@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		933350A423479ED1005B7D89 /* cupcakie.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 933350A323479ED0005B7D89 /* cupcakie.ttf */; };
+		93401AD0236C869B008C9D3D /* Script.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93401ACF236C869B008C9D3D /* Script.plist */; };
+		93401AD4236C903B008C9D3D /* SMRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93401AD3236C903B008C9D3D /* SMRecord.swift */; };
+		93401AD6236C99B3008C9D3D /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93401AD5236C99B3008C9D3D /* Menu.plist */; };
 		9368EE0C2343BD1B003B1D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368EE0B2343BD1B003B1D77 /* AppDelegate.swift */; };
 		9368EE0E2343BD1B003B1D77 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9368EE0D2343BD1B003B1D77 /* GameScene.sks */; };
 		9368EE122343BD1B003B1D77 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368EE112343BD1B003B1D77 /* GameScene.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		933350A323479ED0005B7D89 /* cupcakie.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupcakie.ttf; sourceTree = "<group>"; };
+		93401ACF236C869B008C9D3D /* Script.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Script.plist; sourceTree = "<group>"; };
+		93401AD3236C903B008C9D3D /* SMRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMRecord.swift; sourceTree = "<group>"; };
+		93401AD5236C99B3008C9D3D /* Menu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
 		9368EE082343BD1B003B1D77 /* A Starry Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Starry Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9368EE0B2343BD1B003B1D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9368EE0D2343BD1B003B1D77 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -43,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93401AD7236C99C2008C9D3D /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				93401AD5236C99B3008C9D3D /* Menu.plist */,
+				93401ACF236C869B008C9D3D /* Script.plist */,
+			);
+			path = PLists;
+			sourceTree = "<group>";
+		};
 		9368EDFF2343BD1B003B1D77 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +78,14 @@
 			isa = PBXGroup;
 			children = (
 				9368EE152343BD1B003B1D77 /* Main.storyboard */,
+				9368EE0B2343BD1B003B1D77 /* AppDelegate.swift */,
+				93401AD3236C903B008C9D3D /* SMRecord.swift */,
 				9368EE112343BD1B003B1D77 /* GameScene.swift */,
 				9368EE132343BD1B003B1D77 /* GameViewController.swift */,
 				9368EE0D2343BD1B003B1D77 /* GameScene.sks */,
 				9368EE1D2343BD1D003B1D77 /* Info.plist */,
 				9368EE1A2343BD1D003B1D77 /* LaunchScreen.storyboard */,
-				9368EE0B2343BD1B003B1D77 /* AppDelegate.swift */,
+				93401AD7236C99C2008C9D3D /* PLists */,
 				93FC2A7123625337003B2C90 /* PO1.atlas */,
 				9368EE182343BD1D003B1D77 /* Assets.xcassets */,
 				933350A323479ED0005B7D89 /* cupcakie.ttf */,
@@ -135,9 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9368EE172343BD1B003B1D77 /* Main.storyboard in Resources */,
+				93401AD6236C99B3008C9D3D /* Menu.plist in Resources */,
 				933350A423479ED1005B7D89 /* cupcakie.ttf in Resources */,
 				9368EE0E2343BD1B003B1D77 /* GameScene.sks in Resources */,
 				9368EE192343BD1D003B1D77 /* Assets.xcassets in Resources */,
+				93401AD0236C869B008C9D3D /* Script.plist in Resources */,
 				93FC2A7223625337003B2C90 /* PO1.atlas in Resources */,
 				9368EE1C2343BD1D003B1D77 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -150,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93401AD4236C903B008C9D3D /* SMRecord.swift in Sources */,
 				9368EE122343BD1B003B1D77 /* GameScene.swift in Sources */,
 				9368EE142343BD1B003B1D77 /* GameViewController.swift in Sources */,
 				9368EE0C2343BD1B003B1D77 /* AppDelegate.swift in Sources */,

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TutorialScript</key>
+	<array>
+		<string>Welcome to A Starry Night</string>
+		<string>Your challenge is to make choices that get yourself the ideal ending you deserve.</string>
+		<string>Tap the option you want to progress the story.</string>
+		<string>Before we begin, what is your name?</string>
+		<string>Okay it&apos;s time to get started!</string>
+		<string>Go into options if you want to see the tutorial again.</string>
+	</array>
+</dict>
+</plist>

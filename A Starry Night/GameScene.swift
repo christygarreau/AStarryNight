@@ -52,6 +52,13 @@ class GameScene: SKScene {
             SKAction.animate(with: PO1WalkingFrames,timePerFrame: 0.1,resize: false,restore: true)),withKey:"walkingInPlacePO1")
     }
     
+    func load(){
+        let dictionaryForScriptLoading = NSMutableDictionary()
+        dictionaryForScriptLoading.setValue("Script", forKey: VNScriptFilenameKey)
+        dictionaryForScriptLoading.setValue(VNScriptStartingPoint, forKey: VNScriptConversationNameKey)
+        
+    }
+    
     func touchDown(atPoint pos : CGPoint) {
     }
     
