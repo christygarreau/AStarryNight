@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  AStarryNight
+//  A Starry Night
 //
-//  Created by Christy Garreau on 11/7/19.
+//  Created by Christy Garreau on 11/6/19.
 //  Copyright © 2019 Christy Garreau. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,30 +20,27 @@ class GameViewController: UIViewController {
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
-                
                 // Present the scene
                 view.presentScene(scene)
             }
-            
             view.ignoresSiblingOrder = true
-            
             view.showsFPS = true
             view.showsNodeCount = true
         }
     }
-
+    
     override var shouldAutorotate: Bool {
-        return true
+        return false
     }
-
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .landscapeLeft
     }
-
+    
+    override func didReceiveMemoryWarning() { //deletes unused cached data
+        super.didReceiveMemoryWarning()
+    }
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
