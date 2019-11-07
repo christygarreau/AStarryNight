@@ -1,2 +1,2 @@
 # AStarryNight
-This is my awesome app
+This is messy - moved to other repository
