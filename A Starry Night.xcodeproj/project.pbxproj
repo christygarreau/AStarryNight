@@ -18,6 +18,7 @@
 		9368EE172343BD1B003B1D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9368EE152343BD1B003B1D77 /* Main.storyboard */; };
 		9368EE192343BD1D003B1D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9368EE182343BD1D003B1D77 /* Assets.xcassets */; };
 		9368EE1C2343BD1D003B1D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9368EE1A2343BD1D003B1D77 /* LaunchScreen.storyboard */; };
+		93E3E71323749CC90093EC59 /* SMUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E71223749CC90093EC59 /* SMUtils.swift */; };
 		93FC2A7223625337003B2C90 /* PO1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 93FC2A7123625337003B2C90 /* PO1.atlas */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		93E3E6DF2373750B0093EC59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		93E3E6E02373750B0093EC59 /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
 		93E3E6E7237375FB0093EC59 /* SporkVN ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SporkVN ObjC.h"; sourceTree = "<group>"; };
+		93E3E71223749CC90093EC59 /* SMUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMUtils.swift; sourceTree = "<group>"; };
 		93FC2A7123625337003B2C90 /* PO1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PO1.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				9368EE152343BD1B003B1D77 /* Main.storyboard */,
 				9368EE0B2343BD1B003B1D77 /* AppDelegate.swift */,
 				93401AD3236C903B008C9D3D /* SMRecord.swift */,
+				93E3E71223749CC90093EC59 /* SMUtils.swift */,
 				9368EE112343BD1B003B1D77 /* GameScene.swift */,
 				9368EE132343BD1B003B1D77 /* GameViewController.swift */,
 				9368EE0D2343BD1B003B1D77 /* GameScene.sks */,
@@ -306,6 +309,7 @@
 				9368EE122343BD1B003B1D77 /* GameScene.swift in Sources */,
 				9368EE142343BD1B003B1D77 /* GameViewController.swift in Sources */,
 				9368EE0C2343BD1B003B1D77 /* AppDelegate.swift in Sources */,
+				93E3E71323749CC90093EC59 /* SMUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

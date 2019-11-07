@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Start</key>
+	<array/>
+	<key>New item</key>
+	<string></string>
 	<key>TutorialScript</key>
 	<array>
 		<string>Welcome to A Starry Night</string>
