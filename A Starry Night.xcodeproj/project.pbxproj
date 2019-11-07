@@ -21,6 +21,23 @@
 		93FC2A7223625337003B2C90 /* PO1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 93FC2A7123625337003B2C90 /* PO1.atlas */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		93E3E6E32373750B0093EC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E3E6C32373750B0093EC59 /* DSMultilineLabelNode.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8D419D818ABE4ED00CC03DF;
+			remoteInfo = DSMultilineLabelNode;
+		};
+		93E3E6E52373750B0093EC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E3E6C32373750B0093EC59 /* DSMultilineLabelNode.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33B2C27018CE93DB0006AC87;
+			remoteInfo = MultiLineLabelNodeMac;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		933350A323479ED0005B7D89 /* cupcakie.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupcakie.ttf; sourceTree = "<group>"; };
 		93401ACF236C869B008C9D3D /* Script.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Script.plist; sourceTree = "<group>"; };
@@ -35,6 +52,32 @@
 		9368EE182343BD1D003B1D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9368EE1B2343BD1D003B1D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9368EE1D2343BD1D003B1D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E3E6BF2373750B0093EC59 /* DSMultilineLabelNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSMultilineLabelNode.m; sourceTree = "<group>"; };
+		93E3E6C02373750B0093EC59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93E3E6C12373750B0093EC59 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		93E3E6C32373750B0093EC59 /* DSMultilineLabelNode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DSMultilineLabelNode.xcodeproj; sourceTree = "<group>"; };
+		93E3E6C82373750B0093EC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93E3E6C92373750B0093EC59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93E3E6CA2373750B0093EC59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93E3E6CB2373750B0093EC59 /* TestScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestScene.h; sourceTree = "<group>"; };
+		93E3E6CC2373750B0093EC59 /* DSMultilineLabelNode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSMultilineLabelNode-Info.plist"; sourceTree = "<group>"; };
+		93E3E6CE2373750B0093EC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93E3E6CF2373750B0093EC59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93E3E6D02373750B0093EC59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93E3E6D12373750B0093EC59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93E3E6D22373750B0093EC59 /* TestScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScene.m; sourceTree = "<group>"; };
+		93E3E6D32373750B0093EC59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93E3E6D42373750B0093EC59 /* DSMultilineLabelNode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSMultilineLabelNode-Prefix.pch"; sourceTree = "<group>"; };
+		93E3E6D72373750B0093EC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93E3E6D92373750B0093EC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		93E3E6DA2373750B0093EC59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93E3E6DB2373750B0093EC59 /* MultiLineLabelNodeMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiLineLabelNodeMac-Prefix.pch"; sourceTree = "<group>"; };
+		93E3E6DC2373750B0093EC59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93E3E6DD2373750B0093EC59 /* MultiLineLabelNodeMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiLineLabelNodeMac-Info.plist"; sourceTree = "<group>"; };
+		93E3E6DE2373750B0093EC59 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		93E3E6DF2373750B0093EC59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93E3E6E02373750B0093EC59 /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
+		93E3E6E7237375FB0093EC59 /* SporkVN ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SporkVN ObjC.h"; sourceTree = "<group>"; };
 		93FC2A7123625337003B2C90 /* PO1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PO1.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,14 +126,81 @@
 				9368EE112343BD1B003B1D77 /* GameScene.swift */,
 				9368EE132343BD1B003B1D77 /* GameViewController.swift */,
 				9368EE0D2343BD1B003B1D77 /* GameScene.sks */,
+				93E3E6E7237375FB0093EC59 /* SporkVN ObjC.h */,
 				9368EE1D2343BD1D003B1D77 /* Info.plist */,
 				9368EE1A2343BD1D003B1D77 /* LaunchScreen.storyboard */,
+				93E3E6BE2373750B0093EC59 /* DSMultilineLabelNode-master */,
 				93401AD7236C99C2008C9D3D /* PLists */,
 				93FC2A7123625337003B2C90 /* PO1.atlas */,
 				9368EE182343BD1D003B1D77 /* Assets.xcassets */,
 				933350A323479ED0005B7D89 /* cupcakie.ttf */,
 			);
 			path = "A Starry Night";
+			sourceTree = "<group>";
+		};
+		93E3E6BE2373750B0093EC59 /* DSMultilineLabelNode-master */ = {
+			isa = PBXGroup;
+			children = (
+				93E3E6BF2373750B0093EC59 /* DSMultilineLabelNode.m */,
+				93E3E6C02373750B0093EC59 /* README.md */,
+				93E3E6C12373750B0093EC59 /* .gitignore */,
+				93E3E6C22373750B0093EC59 /* DSMultilineLabelNodeDemo */,
+				93E3E6E02373750B0093EC59 /* DSMultilineLabelNode.h */,
+			);
+			path = "DSMultilineLabelNode-master";
+			sourceTree = "<group>";
+		};
+		93E3E6C22373750B0093EC59 /* DSMultilineLabelNodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				93E3E6C32373750B0093EC59 /* DSMultilineLabelNode.xcodeproj */,
+				93E3E6C62373750B0093EC59 /* DSMultilineLabelNode */,
+				93E3E6D52373750B0093EC59 /* MultiLineLabelNodeMac */,
+			);
+			path = DSMultilineLabelNodeDemo;
+			sourceTree = "<group>";
+		};
+		93E3E6C42373750B0093EC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E3E6E42373750B0093EC59 /* DSMultilineLabelNode.app */,
+				93E3E6E62373750B0093EC59 /* MultiLineLabelNodeMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E3E6C62373750B0093EC59 /* DSMultilineLabelNode */ = {
+			isa = PBXGroup;
+			children = (
+				93E3E6C72373750B0093EC59 /* InfoPlist.strings */,
+				93E3E6C92373750B0093EC59 /* AppDelegate.h */,
+				93E3E6CA2373750B0093EC59 /* ViewController.m */,
+				93E3E6CB2373750B0093EC59 /* TestScene.h */,
+				93E3E6CC2373750B0093EC59 /* DSMultilineLabelNode-Info.plist */,
+				93E3E6CD2373750B0093EC59 /* Main.storyboard */,
+				93E3E6CF2373750B0093EC59 /* main.m */,
+				93E3E6D02373750B0093EC59 /* Images.xcassets */,
+				93E3E6D12373750B0093EC59 /* AppDelegate.m */,
+				93E3E6D22373750B0093EC59 /* TestScene.m */,
+				93E3E6D32373750B0093EC59 /* ViewController.h */,
+				93E3E6D42373750B0093EC59 /* DSMultilineLabelNode-Prefix.pch */,
+			);
+			path = DSMultilineLabelNode;
+			sourceTree = "<group>";
+		};
+		93E3E6D52373750B0093EC59 /* MultiLineLabelNodeMac */ = {
+			isa = PBXGroup;
+			children = (
+				93E3E6D62373750B0093EC59 /* InfoPlist.strings */,
+				93E3E6D82373750B0093EC59 /* Credits.rtf */,
+				93E3E6DA2373750B0093EC59 /* AppDelegate.h */,
+				93E3E6DB2373750B0093EC59 /* MultiLineLabelNodeMac-Prefix.pch */,
+				93E3E6DC2373750B0093EC59 /* main.m */,
+				93E3E6DD2373750B0093EC59 /* MultiLineLabelNodeMac-Info.plist */,
+				93E3E6DE2373750B0093EC59 /* MainMenu.xib */,
+				93E3E6DF2373750B0093EC59 /* AppDelegate.m */,
+			);
+			path = MultiLineLabelNodeMac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,12 +249,35 @@
 			mainGroup = 9368EDFF2343BD1B003B1D77;
 			productRefGroup = 9368EE092343BD1B003B1D77 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93E3E6C42373750B0093EC59 /* Products */;
+					ProjectRef = 93E3E6C32373750B0093EC59 /* DSMultilineLabelNode.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9368EE072343BD1B003B1D77 /* A Starry Night */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		93E3E6E42373750B0093EC59 /* DSMultilineLabelNode.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DSMultilineLabelNode.app;
+			remoteRef = 93E3E6E32373750B0093EC59 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93E3E6E62373750B0093EC59 /* MultiLineLabelNodeMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MultiLineLabelNodeMac.app;
+			remoteRef = 93E3E6E52373750B0093EC59 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9368EE062343BD1B003B1D77 /* Resources */ = {
@@ -193,6 +326,38 @@
 				9368EE1B2343BD1D003B1D77 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		93E3E6C72373750B0093EC59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E3E6C82373750B0093EC59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93E3E6CD2373750B0093EC59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E3E6CE2373750B0093EC59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93E3E6D62373750B0093EC59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E3E6D72373750B0093EC59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93E3E6D82373750B0093EC59 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E3E6D92373750B0093EC59 /* en */,
+			);
+			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
