@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9380CB95237623F400C09315 /* VNSceneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380CB94237623F400C09315 /* VNSceneNode.swift */; };
+		9380CB9C2376270300C09315 /* VNScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380CB9B2376270300C09315 /* VNScript.swift */; };
+		9380CB9E2376272F00C09315 /* VNSystemCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380CB9D2376272F00C09315 /* VNSystemCall.swift */; };
+		9380CBA023762D8800C09315 /* MainMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9380CB9F23762D8800C09315 /* MainMenu.plist */; };
+		9380CBA323762DD300C09315 /* ViewSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9380CBA223762DD300C09315 /* ViewSettings.plist */; };
 		93E3E72123749DCD0093EC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E72023749DCD0093EC59 /* AppDelegate.swift */; };
 		93E3E72723749DCD0093EC59 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E72623749DCD0093EC59 /* GameScene.swift */; };
 		93E3E72923749DCD0093EC59 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E72823749DCD0093EC59 /* GameViewController.swift */; };
@@ -18,41 +23,16 @@
 		93E3E73D2374A0570093EC59 /* Script.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E73C2374A0570093EC59 /* Script.plist */; };
 		93E3E7672374A1210093EC59 /* DSMultilineLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E73F2374A1210093EC59 /* DSMultilineLabelNode.m */; };
 		93E3E7682374A1210093EC59 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E7402374A1210093EC59 /* README.md */; };
-		93E3E7692374A1210093EC59 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E7412374A1210093EC59 /* .gitignore */; };
-		93E3E76A2374A1210093EC59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E7472374A1210093EC59 /* InfoPlist.strings */; };
-		93E3E76B2374A1210093EC59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E74A2374A1210093EC59 /* ViewController.m */; };
-		93E3E76C2374A1210093EC59 /* DSMultilineLabelNode-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E74C2374A1210093EC59 /* DSMultilineLabelNode-Info.plist */; };
-		93E3E76D2374A1210093EC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E74D2374A1210093EC59 /* Main.storyboard */; };
-		93E3E76E2374A1210093EC59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E74F2374A1210093EC59 /* main.m */; };
-		93E3E76F2374A1210093EC59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E7502374A1210093EC59 /* Images.xcassets */; };
-		93E3E7702374A1210093EC59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E7512374A1210093EC59 /* AppDelegate.m */; };
-		93E3E7712374A1210093EC59 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E7522374A1210093EC59 /* TestScene.m */; };
-		93E3E7722374A1210093EC59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E7562374A1210093EC59 /* InfoPlist.strings */; };
-		93E3E7732374A1210093EC59 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E7582374A1210093EC59 /* Credits.rtf */; };
-		93E3E7742374A1210093EC59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E75C2374A1210093EC59 /* main.m */; };
-		93E3E7752374A1210093EC59 /* MultiLineLabelNodeMac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E75D2374A1210093EC59 /* MultiLineLabelNodeMac-Info.plist */; };
-		93E3E7762374A1210093EC59 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E3E75E2374A1210093EC59 /* MainMenu.xib */; };
-		93E3E7772374A1210093EC59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3E75F2374A1210093EC59 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		93E3E7632374A1210093EC59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93E3E7432374A1210093EC59 /* DSMultilineLabelNode.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A8D419D818ABE4ED00CC03DF;
-			remoteInfo = DSMultilineLabelNode;
-		};
-		93E3E7652374A1210093EC59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93E3E7432374A1210093EC59 /* DSMultilineLabelNode.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 33B2C27018CE93DB0006AC87;
-			remoteInfo = MultiLineLabelNodeMac;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		9380CB94237623F400C09315 /* VNSceneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNSceneNode.swift; sourceTree = "<group>"; };
+		9380CB9A2376252100C09315 /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
+		9380CB9B2376270300C09315 /* VNScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNScript.swift; sourceTree = "<group>"; };
+		9380CB9D2376272F00C09315 /* VNSystemCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNSystemCall.swift; sourceTree = "<group>"; };
+		9380CB9F23762D8800C09315 /* MainMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MainMenu.plist; sourceTree = "<group>"; };
+		9380CBA223762DD300C09315 /* ViewSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ViewSettings.plist; sourceTree = "<group>"; };
+		9380CBA423762E0200C09315 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93E3E71D23749DCD0093EC59 /* AStarryNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AStarryNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E3E72023749DCD0093EC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E3E72623749DCD0093EC59 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -66,28 +46,6 @@
 		93E3E73C2374A0570093EC59 /* Script.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Script.plist; sourceTree = "<group>"; };
 		93E3E73F2374A1210093EC59 /* DSMultilineLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMultilineLabelNode.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		93E3E7402374A1210093EC59 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		93E3E7412374A1210093EC59 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		93E3E7432374A1210093EC59 /* DSMultilineLabelNode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DSMultilineLabelNode.xcodeproj; sourceTree = "<group>"; };
-		93E3E7482374A1210093EC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93E3E7492374A1210093EC59 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		93E3E74A2374A1210093EC59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		93E3E74B2374A1210093EC59 /* TestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScene.h; sourceTree = "<group>"; };
-		93E3E74C2374A1210093EC59 /* DSMultilineLabelNode-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DSMultilineLabelNode-Info.plist"; sourceTree = "<group>"; };
-		93E3E74E2374A1210093EC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93E3E74F2374A1210093EC59 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93E3E7502374A1210093EC59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		93E3E7512374A1210093EC59 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		93E3E7522374A1210093EC59 /* TestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScene.m; sourceTree = "<group>"; };
-		93E3E7532374A1210093EC59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		93E3E7542374A1210093EC59 /* DSMultilineLabelNode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DSMultilineLabelNode-Prefix.pch"; sourceTree = "<group>"; };
-		93E3E7572374A1210093EC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93E3E7592374A1210093EC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		93E3E75A2374A1210093EC59 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		93E3E75B2374A1210093EC59 /* MultiLineLabelNodeMac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MultiLineLabelNodeMac-Prefix.pch"; sourceTree = "<group>"; };
-		93E3E75C2374A1210093EC59 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93E3E75D2374A1210093EC59 /* MultiLineLabelNodeMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiLineLabelNodeMac-Info.plist"; sourceTree = "<group>"; };
-		93E3E75E2374A1210093EC59 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		93E3E75F2374A1210093EC59 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		93E3E7602374A1210093EC59 /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9380CBA123762D9400C09315 /* Property Lists */ = {
+			isa = PBXGroup;
+			children = (
+				9380CB9F23762D8800C09315 /* MainMenu.plist */,
+				93E3E73C2374A0570093EC59 /* Script.plist */,
+				9380CBA223762DD300C09315 /* ViewSettings.plist */,
+			);
+			path = "Property Lists";
+			sourceTree = "<group>";
+		};
 		93E3E71423749DCD0093EC59 = {
 			isa = PBXGroup;
 			children = (
@@ -121,17 +89,22 @@
 		93E3E71F23749DCD0093EC59 /* AStarryNight */ = {
 			isa = PBXGroup;
 			children = (
+				9380CBA423762E0200C09315 /* README.md */,
 				93E3E72023749DCD0093EC59 /* AppDelegate.swift */,
 				93E3E73823749E6A0093EC59 /* SMRecord.swift */,
 				93E3E73A23749ED30093EC59 /* SMUtils.swift */,
 				93E3E72823749DCD0093EC59 /* GameViewController.swift */,
 				93E3E72623749DCD0093EC59 /* GameScene.swift */,
-				93E3E72A23749DCD0093EC59 /* Main.storyboard */,
-				93E3E72F23749DCF0093EC59 /* LaunchScreen.storyboard */,
+				9380CB94237623F400C09315 /* VNSceneNode.swift */,
+				9380CB9B2376270300C09315 /* VNScript.swift */,
+				9380CB9D2376272F00C09315 /* VNSystemCall.swift */,
+				9380CB9A2376252100C09315 /* ObjC.h */,
+				9380CBA123762D9400C09315 /* Property Lists */,
 				93E3E73E2374A1210093EC59 /* DSMultilineLabelNode */,
 				93E3E72D23749DCF0093EC59 /* Assets.xcassets */,
+				93E3E72F23749DCF0093EC59 /* LaunchScreen.storyboard */,
+				93E3E72A23749DCD0093EC59 /* Main.storyboard */,
 				93E3E73223749DCF0093EC59 /* Info.plist */,
-				93E3E73C2374A0570093EC59 /* Script.plist */,
 			);
 			path = AStarryNight;
 			sourceTree = "<group>";
@@ -139,66 +112,11 @@
 		93E3E73E2374A1210093EC59 /* DSMultilineLabelNode */ = {
 			isa = PBXGroup;
 			children = (
+				93E3E7602374A1210093EC59 /* DSMultilineLabelNode.h */,
 				93E3E73F2374A1210093EC59 /* DSMultilineLabelNode.m */,
 				93E3E7402374A1210093EC59 /* README.md */,
-				93E3E7412374A1210093EC59 /* .gitignore */,
-				93E3E7422374A1210093EC59 /* DSMultilineLabelNodeDemo */,
-				93E3E7602374A1210093EC59 /* DSMultilineLabelNode.h */,
 			);
 			path = DSMultilineLabelNode;
-			sourceTree = "<group>";
-		};
-		93E3E7422374A1210093EC59 /* DSMultilineLabelNodeDemo */ = {
-			isa = PBXGroup;
-			children = (
-				93E3E7432374A1210093EC59 /* DSMultilineLabelNode.xcodeproj */,
-				93E3E7462374A1210093EC59 /* DSMultilineLabelNode */,
-				93E3E7552374A1210093EC59 /* MultiLineLabelNodeMac */,
-			);
-			path = DSMultilineLabelNodeDemo;
-			sourceTree = "<group>";
-		};
-		93E3E7442374A1210093EC59 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				93E3E7642374A1210093EC59 /* DSMultilineLabelNode.app */,
-				93E3E7662374A1210093EC59 /* MultiLineLabelNodeMac.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		93E3E7462374A1210093EC59 /* DSMultilineLabelNode */ = {
-			isa = PBXGroup;
-			children = (
-				93E3E7472374A1210093EC59 /* InfoPlist.strings */,
-				93E3E7492374A1210093EC59 /* AppDelegate.h */,
-				93E3E74A2374A1210093EC59 /* ViewController.m */,
-				93E3E74B2374A1210093EC59 /* TestScene.h */,
-				93E3E74C2374A1210093EC59 /* DSMultilineLabelNode-Info.plist */,
-				93E3E74D2374A1210093EC59 /* Main.storyboard */,
-				93E3E74F2374A1210093EC59 /* main.m */,
-				93E3E7502374A1210093EC59 /* Images.xcassets */,
-				93E3E7512374A1210093EC59 /* AppDelegate.m */,
-				93E3E7522374A1210093EC59 /* TestScene.m */,
-				93E3E7532374A1210093EC59 /* ViewController.h */,
-				93E3E7542374A1210093EC59 /* DSMultilineLabelNode-Prefix.pch */,
-			);
-			path = DSMultilineLabelNode;
-			sourceTree = "<group>";
-		};
-		93E3E7552374A1210093EC59 /* MultiLineLabelNodeMac */ = {
-			isa = PBXGroup;
-			children = (
-				93E3E7562374A1210093EC59 /* InfoPlist.strings */,
-				93E3E7582374A1210093EC59 /* Credits.rtf */,
-				93E3E75A2374A1210093EC59 /* AppDelegate.h */,
-				93E3E75B2374A1210093EC59 /* MultiLineLabelNodeMac-Prefix.pch */,
-				93E3E75C2374A1210093EC59 /* main.m */,
-				93E3E75D2374A1210093EC59 /* MultiLineLabelNodeMac-Info.plist */,
-				93E3E75E2374A1210093EC59 /* MainMenu.xib */,
-				93E3E75F2374A1210093EC59 /* AppDelegate.m */,
-			);
-			path = MultiLineLabelNodeMac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,12 +165,6 @@
 			mainGroup = 93E3E71423749DCD0093EC59;
 			productRefGroup = 93E3E71E23749DCD0093EC59 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 93E3E7442374A1210093EC59 /* Products */;
-					ProjectRef = 93E3E7432374A1210093EC59 /* DSMultilineLabelNode.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				93E3E71C23749DCD0093EC59 /* AStarryNight */,
@@ -260,41 +172,17 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		93E3E7642374A1210093EC59 /* DSMultilineLabelNode.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = DSMultilineLabelNode.app;
-			remoteRef = 93E3E7632374A1210093EC59 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		93E3E7662374A1210093EC59 /* MultiLineLabelNodeMac.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MultiLineLabelNodeMac.app;
-			remoteRef = 93E3E7652374A1210093EC59 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		93E3E71B23749DCD0093EC59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9380CBA023762D8800C09315 /* MainMenu.plist in Resources */,
 				93E3E72C23749DCD0093EC59 /* Main.storyboard in Resources */,
-				93E3E76F2374A1210093EC59 /* Images.xcassets in Resources */,
-				93E3E76A2374A1210093EC59 /* InfoPlist.strings in Resources */,
-				93E3E76C2374A1210093EC59 /* DSMultilineLabelNode-Info.plist in Resources */,
 				93E3E72E23749DCF0093EC59 /* Assets.xcassets in Resources */,
-				93E3E7762374A1210093EC59 /* MainMenu.xib in Resources */,
 				93E3E7682374A1210093EC59 /* README.md in Resources */,
+				9380CBA323762DD300C09315 /* ViewSettings.plist in Resources */,
 				93E3E73123749DCF0093EC59 /* LaunchScreen.storyboard in Resources */,
-				93E3E7732374A1210093EC59 /* Credits.rtf in Resources */,
-				93E3E76D2374A1210093EC59 /* Main.storyboard in Resources */,
-				93E3E7692374A1210093EC59 /* .gitignore in Resources */,
-				93E3E7722374A1210093EC59 /* InfoPlist.strings in Resources */,
-				93E3E7752374A1210093EC59 /* MultiLineLabelNodeMac-Info.plist in Resources */,
 				93E3E73D2374A0570093EC59 /* Script.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,17 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E3E7712374A1210093EC59 /* TestScene.m in Sources */,
-				93E3E76B2374A1210093EC59 /* ViewController.m in Sources */,
+				9380CB9C2376270300C09315 /* VNScript.swift in Sources */,
 				93E3E73923749E6A0093EC59 /* SMRecord.swift in Sources */,
-				93E3E7702374A1210093EC59 /* AppDelegate.m in Sources */,
 				93E3E72723749DCD0093EC59 /* GameScene.swift in Sources */,
 				93E3E72923749DCD0093EC59 /* GameViewController.swift in Sources */,
 				93E3E72123749DCD0093EC59 /* AppDelegate.swift in Sources */,
 				93E3E73B23749ED30093EC59 /* SMUtils.swift in Sources */,
-				93E3E7772374A1210093EC59 /* AppDelegate.m in Sources */,
-				93E3E76E2374A1210093EC59 /* main.m in Sources */,
-				93E3E7742374A1210093EC59 /* main.m in Sources */,
+				9380CB9E2376272F00C09315 /* VNSystemCall.swift in Sources */,
+				9380CB95237623F400C09315 /* VNSceneNode.swift in Sources */,
 				93E3E7672374A1210093EC59 /* DSMultilineLabelNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,38 +223,6 @@
 				93E3E73023749DCF0093EC59 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		93E3E7472374A1210093EC59 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93E3E7482374A1210093EC59 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		93E3E74D2374A1210093EC59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93E3E74E2374A1210093EC59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		93E3E7562374A1210093EC59 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93E3E7572374A1210093EC59 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		93E3E7582374A1210093EC59 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93E3E7592374A1210093EC59 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -504,6 +357,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChristyG.AStarryNight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = AStarryNight/AStarryNight/ObjC.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -522,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChristyG.AStarryNight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = AStarryNight/AStarryNight/ObjC.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
