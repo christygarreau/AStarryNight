@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9306870A237DC882007E06FA /* VNTestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93068709237DC882007E06FA /* VNTestScene.swift */; };
 		9380CB95237623F400C09315 /* VNSceneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380CB94237623F400C09315 /* VNSceneNode.swift */; };
 		9380CB9C2376270300C09315 /* VNScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380CB9B2376270300C09315 /* VNScript.swift */; };
 		9380CB9E2376272F00C09315 /* VNSystemCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9380CB9D2376272F00C09315 /* VNSystemCall.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93068709237DC882007E06FA /* VNTestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNTestScene.swift; sourceTree = "<group>"; };
 		9380CB94237623F400C09315 /* VNSceneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNSceneNode.swift; sourceTree = "<group>"; };
 		9380CB9A2376252100C09315 /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
 		9380CB9B2376270300C09315 /* VNScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNScript.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				9380CB94237623F400C09315 /* VNSceneNode.swift */,
 				9380CB9B2376270300C09315 /* VNScript.swift */,
 				9380CB9D2376272F00C09315 /* VNSystemCall.swift */,
+				93068709237DC882007E06FA /* VNTestScene.swift */,
 				9380CB9A2376252100C09315 /* ObjC.h */,
 				9380CBA123762D9400C09315 /* Property Lists */,
 				93E3E73E2374A1210093EC59 /* DSMultilineLabelNode */,
@@ -200,6 +203,7 @@
 				93E3E72923749DCD0093EC59 /* GameViewController.swift in Sources */,
 				93E3E72123749DCD0093EC59 /* AppDelegate.swift in Sources */,
 				93E3E73B23749ED30093EC59 /* SMUtils.swift in Sources */,
+				9306870A237DC882007E06FA /* VNTestScene.swift in Sources */,
 				9380CB9E2376272F00C09315 /* VNSystemCall.swift in Sources */,
 				9380CB95237623F400C09315 /* VNSceneNode.swift in Sources */,
 				93E3E7672374A1210093EC59 /* DSMultilineLabelNode.m in Sources */,
@@ -357,7 +361,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChristyG.AStarryNight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = AStarryNight/AStarryNight/ObjC.h;
+				SWIFT_OBJC_BRIDGING_HEADER = AStarryNight/ObjC.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,7 +380,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChristyG.AStarryNight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = AStarryNight/AStarryNight/ObjC.h;
+				SWIFT_OBJC_BRIDGING_HEADER = AStarryNight/ObjC.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

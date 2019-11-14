@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   MainMenu.plist
-   AStarryNight
-
-   Created by Christy Garreau on 11/8/19.
-   Copyright (c) 2019 Christy Garreau. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>startnewgame label x</key>
+	<real>0.5</real>
+	<key>startnewgame label y</key>
+	<real>0.35</real>
+	<key>startnewgame text</key>
+	<string>New Game</string>
+	<key>startnewgame font</key>
+	<string>Cupcakie</string>
+	<key>startnewgame size</key>
+	<integer>24</integer>
+	<key>startnewgame color</key>
+	<dict>
+		<key>r</key>
+		<integer>255</integer>
+		<key>g</key>
+		<integer>0</integer>
+		<key>b</key>
+		<integer>0</integer>
+	</dict>
+	<key>title label x</key>
+	<real>0.5</real>
+	<key>title label y</key>
+	<string>0.6</string>
+	<key>title label text</key>
+	<string>A Starry Night</string>
+	<key>title label font</key>
+	<string>Cupcakie</string>
+	<key>title label size</key>
+	<string>200</string>
+	<key>title label color</key>
+	<dict/>
+	<key>r</key>
+	<integer>255</integer>
+	<key>g</key>
+	<integer>255</integer>
+	<key>b</key>
+	<integer>255</integer>
+	<key>continue label x</key>
+	<real>0.5</real>
+	<key>continue label y</key>
+	<real>0.2</real>
+	<key>continue text</key>
+	<string>Continue</string>
+	<key>continue font</key>
+	<string>Cupcakie</string>
+	<key>continue size</key>
+	<integer>24</integer>
+	<key>continue color</key>
+	<dict>
+		<key>r</key>
+		<integer>255</integer>
+		<key>g</key>
+		<integer>0</integer>
+		<key>b</key>
+		<integer>0</integer>
+	</dict>
+	<key>title x</key>
+	<real>0.5</real>
+	<key>New item - 5</key>
+	<integer>0</integer>
+	<key>title label</key>
+	<string>A Starry Night</string>
+	<key>background image</key>
+	<string>MainMenuImage.png</string>
+	<key>script to load</key>
+	<string>Script</string>
+	<key>menu music</key>
+	<string>MenuMusic.mp3</string>
+</dict>
 </plist>
