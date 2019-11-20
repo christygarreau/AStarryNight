@@ -131,7 +131,7 @@ let VNSceneOverrideSpeakerFontKey   = "override speaker font"
 let VNSceneOverrideSpeakerSizeKey   = "override speaker size"
 
 // Graphics/display stuff
-let VNSceneViewSettingsFileName     = "vnscene view settings"
+let VNSceneViewSettingsFileName     = "ViewSettings"
 let VNSceneSpriteXKey               = "x position"
 let VNSceneSpriteYKey               = "y position"
 

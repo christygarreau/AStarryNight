@@ -102,10 +102,10 @@
 }
 
 -(void)setParagraphWidth:(CGFloat)paragraphWidth {
-	
-	_paragraphWidth = paragraphWidth;
-	[self retexture];
-	
+    
+    _paragraphWidth = paragraphWidth;
+    [self retexture];
+    
 }
 
 //Generates and applies new textures based on the current property values
@@ -132,13 +132,13 @@
     
     //Create the font using the values set by the user
     DSMultiLineLabelFont *font = [DSMultiLineLabelFont fontWithName:self.fontName size:self.fontSize];
-	
-	if (!font) {
-		font = [DSMultiLineLabelFont fontWithName:@"Helvetica" size:self.fontSize];
-		NSLog(@"The font you specified was unavailable. Defaulted to Helvetica.");
-//		NSLog(@"The font you specified was unavailable. Defaulted to Helvetica. Here is a list of available fonts: %@", [DSMultiLineLabelFont familyNames]); //only available for debugging on iOS
-//		NSLog(@"Here is a list of variations to %@: %@", _fontName, [DSMultiLineLabelFont familyNames]);
-	}
+    
+    if (!font) {
+        font = [DSMultiLineLabelFont fontWithName:@"Helvetica" size:self.fontSize];
+        NSLog(@"The font you specified was unavailable. Defaulted to Helvetica.");
+//        NSLog(@"The font you specified was unavailable. Defaulted to Helvetica. Here is a list of available fonts: %@", [DSMultiLineLabelFont familyNames]); //only available for debugging on iOS
+//        NSLog(@"Here is a list of variations to %@: %@", _fontName, [DSMultiLineLabelFont familyNames]);
+    }
     
     //Create our textAttributes dictionary that we'll use when drawing to the graphics context
     NSMutableDictionary *textAttributes = [NSMutableDictionary dictionary];
@@ -154,28 +154,28 @@
     
     
     //Calculate the size that the text will take up, given our options.  We use the full screen size for the bounds
-	if (_paragraphWidth == 0) {
-		_paragraphWidth = self.scene.size.width;
-	}
+    if (_paragraphWidth == 0) {
+        _paragraphWidth = self.scene.size.width;
+    }
 #if TARGET_OS_IPHONE
     CGRect textRect = [text boundingRectWithSize:CGSizeMake(_paragraphWidth, self.scene.size.height)
                                          options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingTruncatesLastVisibleLine
                                       attributes:textAttributes
                                          context:nil];
-				
+                
 #else
-	CGRect textRect = [text boundingRectWithSize:CGSizeMake(_paragraphWidth, self.scene.size.height)
+    CGRect textRect = [text boundingRectWithSize:CGSizeMake(_paragraphWidth, self.scene.size.height)
                                          options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingTruncatesLastVisibleLine
                                       attributes:textAttributes];
 #endif
     //iOS7 uses fractional size values.  So we needed to ceil it to make sure we have enough room for display.
     textRect.size.height = ceil(textRect.size.height);
     textRect.size.width = ceil(textRect.size.width);
-	
-	//Mac build crashes when the size is nothing - this also skips out on unecessary cycles below when the size is nothing
-	if (textRect.size.width == 0 || textRect.size.height == 0) {
-		return Nil;
-	}
+    
+    //Mac build crashes when the size is nothing - this also skips out on unecessary cycles below when the size is nothing
+    if (textRect.size.width == 0 || textRect.size.height == 0) {
+        return Nil;
+    }
     
     //The size of the bounding rect is going to be the size of our new node, so set the size here.
     SKSpriteNode *selfNode = (SKSpriteNode*) self;
@@ -193,22 +193,22 @@
     
     //Close the context
     UIGraphicsEndImageContext();
-#else 
+#else
 
-	DSMultiLineLabelImage *image = [[DSMultiLineLabelImage alloc] initWithSize:textRect.size];
-/*	
-	// this section may or may not be necessary (it builds and runs without, but I don't have enough experience to know if this makes things run smoother in any way, or if the stackexchange article was entirely purposed for something else)
-	NSBitmapImageRep* imageRep = [[NSBitmapImageRep alloc] initWithBitmapDataPlanes:NULL pixelsWide:textRect.size.width pixelsHigh:textRect.size.height bitsPerSample:8 samplesPerPixel:4 hasAlpha:YES isPlanar:NO colorSpaceName:NSCalibratedRGBColorSpace bytesPerRow:0 bitsPerPixel:0];
-	
-	[image addRepresentation:imageRep];
-	
+    DSMultiLineLabelImage *image = [[DSMultiLineLabelImage alloc] initWithSize:textRect.size];
+/*
+    // this section may or may not be necessary (it builds and runs without, but I don't have enough experience to know if this makes things run smoother in any way, or if the stackexchange article was entirely purposed for something else)
+    NSBitmapImageRep* imageRep = [[NSBitmapImageRep alloc] initWithBitmapDataPlanes:NULL pixelsWide:textRect.size.width pixelsHigh:textRect.size.height bitsPerSample:8 samplesPerPixel:4 hasAlpha:YES isPlanar:NO colorSpaceName:NSCalibratedRGBColorSpace bytesPerRow:0 bitsPerPixel:0];
+    
+    [image addRepresentation:imageRep];
+    
 */
-	[image lockFocus];
-	
-	[text drawInRect:textRect withAttributes:textAttributes];
-	
-	[image unlockFocus];
-	
+    [image lockFocus];
+    
+    [text drawInRect:textRect withAttributes:textAttributes];
+    
+    [image unlockFocus];
+    
 
 #endif
     

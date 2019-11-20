@@ -27,9 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9303F3322385BF01001B9C81 /* ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
 		93068709237DC882007E06FA /* VNTestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNTestScene.swift; sourceTree = "<group>"; };
 		9380CB94237623F400C09315 /* VNSceneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNSceneNode.swift; sourceTree = "<group>"; };
-		9380CB9A2376252100C09315 /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
 		9380CB9B2376270300C09315 /* VNScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNScript.swift; sourceTree = "<group>"; };
 		9380CB9D2376272F00C09315 /* VNSystemCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNSystemCall.swift; sourceTree = "<group>"; };
 		9380CB9F23762D8800C09315 /* MainMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MainMenu.plist; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				9380CB9B2376270300C09315 /* VNScript.swift */,
 				9380CB9D2376272F00C09315 /* VNSystemCall.swift */,
 				93068709237DC882007E06FA /* VNTestScene.swift */,
-				9380CB9A2376252100C09315 /* ObjC.h */,
+				9303F3322385BF01001B9C81 /* ObjC.h */,
 				9380CBA123762D9400C09315 /* Property Lists */,
 				93E3E73E2374A1210093EC59 /* DSMultilineLabelNode */,
 				93E3E72D23749DCF0093EC59 /* Assets.xcassets */,
